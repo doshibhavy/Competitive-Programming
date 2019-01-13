@@ -15,7 +15,7 @@ public class Triangular_Number
 	    	T--;
 	    	n = Integer.parseInt(br.readLine());
 	    	n1 = (int)Math.floor(Math.sqrt(2*n));
-	    	System.out.println("N1:"+n1);
+	    	//System.out.println("N1:"+n1);
 	    	res = (n1*(n1+1))/2;
 	    	if(res==n)
 	    		System.out.println("1");
